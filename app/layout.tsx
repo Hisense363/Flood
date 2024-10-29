@@ -1,11 +1,10 @@
-import type { Metadata } from "next";
-import localFont from "next/font/local";
 import "./globals.css";
+import { Afacad } from "next/font/google";
 
-const afacad = localFont({
-  src: "./fonts/Afacad.ttf",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+const afacad = Afacad({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-afacad", // Add this
 });
 
 export default function RootLayout({
@@ -16,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${afacad.className} antialiased bg-[url('/images/pexels-shotbyrain-3989914.jpg')] bg-cover bg-center bg-fixed min-h-screen`}
+        className={`${afacad.className} antialiased bg-hero-pattern bg-cover bg-center bg-fixed min-h-screen font-afacad`}
       >
         {children}
       </body>

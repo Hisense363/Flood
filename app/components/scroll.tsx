@@ -53,7 +53,7 @@ const SnapScrollPage: React.FC = () => {
         <div className="flex flex-col h-3/5">
           <div className="flex-1">
             <p className="lg:text-4xl md:text-3xl sm:text-2xl text-xl">
-              Flood ($FLUD) is a new "mineable" currency on Sui Network. It
+              Flood ($FLUD) is a new mineable currency on Sui Network. It
               upholds the core ethos of cryptocurrencies such as Bitcoin. No
               insiders, no pre-mine, fair distribution.
             </p>
@@ -119,7 +119,7 @@ const SnapScrollPage: React.FC = () => {
         </div>
         <div>
           <p className="lg:text-4xl md:text-3xl sm:text-2xl text-xl">
-            Receive a 20% matching bonus based on each of your referrals'
+            Receive a 20% matching bonus based on each of your referrals
             transaction activity, capped at your personal transaction volume.
           </p>
         </div>

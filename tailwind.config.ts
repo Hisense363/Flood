@@ -15,6 +15,9 @@ const config: Config = {
       screens: {
         xs: "480px",
       },
+      backgroundImage: {
+        "hero-pattern": "url('/images/pexels-shotbyrain-3989914.jpg')",
+      },
     },
   },
   plugins: [],
