@@ -19,8 +19,8 @@ export default function AppLandingPage() {
             </div>
 
             <div className="bg-gray-800 p-6 rounded-lg shadow-lg">
-              <h2 className="text-xl font-semibold mb-4">Performance</h2>
-              <p className="text-gray-300">System metrics and analytics</p>
+              <h2 className="text-xl font-semibold mb-4">Social Performance</h2>
+              <p className="text-gray-300">Referred / Referrals</p>
             </div>
           </div>
 
