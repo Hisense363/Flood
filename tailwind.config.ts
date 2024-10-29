@@ -18,6 +18,9 @@ const config: Config = {
       backgroundImage: {
         "hero-pattern": "url('/images/pexels-shotbyrain-3989914.jpg')",
       },
+      fontFamily: {
+        afacad: ["Afacad", "sans-serif"],
+      },
     },
   },
   plugins: [],

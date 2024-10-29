@@ -8,16 +8,11 @@ export const metadata = {
   title: "Flood",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function page() {
   return (
     <html lang="en">
       <body className={inter.className}>
         <SnapScrollPage />
-        {children}
       </body>
     </html>
   );
