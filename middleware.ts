@@ -1,29 +1,33 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-export default function middleware(request: NextRequest) {
-  const hostname = request.headers.get("host") || "";
-  const isAppSubdomain = hostname.startsWith("app.");
-  const url = request.nextUrl.clone();
+export function middleware(request: NextRequest) {
+  try {
+    const hostname = request.headers.get("host") || "";
+    const url = request.nextUrl.clone();
+    const isAppSubdomain = hostname.startsWith("app.");
 
-  // If we're on the app subdomain and at the root path
-  if (isAppSubdomain && url.pathname === "/") {
-    url.pathname = "/app"; // Redirect to the app landing page
-    return NextResponse.rewrite(url);
+    // Add production domain check if needed
+    // const isProd = process.env.NODE_ENV === 'production';
+    // const productionDomain = isProd ? 'yourapp.com' : 'localhost:3000';
+
+    // If we're on the app subdomain and at the root path
+    if (isAppSubdomain && url.pathname === "/") {
+      url.pathname = "/app";
+      return NextResponse.rewrite(url);
+    }
+
+    return NextResponse.next();
+  } catch (error) {
+    console.error("Middleware error:", error);
+    return NextResponse.next();
   }
-
-  return NextResponse.next();
 }
 
 export const config = {
+  // Simplify the matcher to reduce complexity
   matcher: [
-    /*
-     * Match all paths except for:
-     * 1. /api routes
-     * 2. /_next (Next.js internals)
-     * 3. /static (inside /public)
-     * 4. all root files inside /public (e.g. /favicon.ico)
-     */
-    "/((?!api|_next|static|[\\w-]+\\.\\w+).*)",
+    // Match all paths except Next.js internals and api routes
+    "/((?!api/|_next/|_static/|_vercel|[\\w-]+\\.\\w+).*)",
   ],
 };
