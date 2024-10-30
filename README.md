@@ -23,7 +23,7 @@ The $FLUD system has two components:
 
 2\) A web miner for users to easily send lots of txs, as well as mint and claim FLUD: [src/web](./src/web). The web miner is built on top of the TypeScript SDK: [src/sdk](./src/sdk).
 
-## Boiling mechanism
+## Mining mechanism
 
 A Sui "epoch" is roughly equivalent to 1 day.
 
