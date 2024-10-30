@@ -48,14 +48,16 @@ Social Rules:
 As an example, Alice refers Bob and Carol. Alice submits 20 transactions. Bob submits 10. Carol submits 30 transactions.
 
 Alice would receive a total of 26 = 20 from transactions + 2 from Bob (20% of 10 - limited by Bob's total transactions) + 4 from Carol (20% of 20 - limited by Alice's total transaction)
+
 Bob would receive a total of 10 from transactions
+
 Carol would receive a total of 30 from transactions
 
 By creating a rigid referral mechanism, onboarding someone is truly rewarding as that person is stuck to you unless they create another account. They would most likely not want to create another account as they would lose all of their referrals in the process. Thereby giving mining accounts a social value from their accumulated referrals.
 
 This is NOT a ponzi mechanism as social rewards are only given to the direct referral. They do not cascade up the tree. Therefore someone who joins much later, but onboards more users will see larger social rewards than someone who was simply early.
-gi
-In the first Epoch, all users will need to refer to the program account. As there will not be any valid miners until the second epoch. This program account will only be a valid referrer address in the first epoch.
+
+In the first Epoch, all users will need to refer to the program account as there will not be any valid miners until the second epoch. This program account will only be a valid referrer address in the first epoch.
 
 ## Tokenomics
 
