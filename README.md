@@ -57,6 +57,8 @@ Carol would receive a total of 30 from transactions
 
 By creating a rigid referral mechanism, onboarding someone is truly rewarding as that person is stuck to you unless they create another account. They would most likely not want to create another account as they would lose all of their referrals in the process. Thereby giving mining accounts a social value from their accumulated referrals.
 
+In the first Epoch, all users will need to refer to the program account. As there will not be any valid miners until the second epoch. This program account will only be a valid referrer address in the first epoch.
+
 ## Tokenomics
 
 $FLUD is a finite resource.
