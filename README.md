@@ -45,20 +45,17 @@ Claim up to 20% boost for each referral or referree.
 
 Social Rules:
 
-1. Referrers may not claim a bonus from transactions in excess capacity of their own
-2. Referrers may not claim a bonus on their referees referral bonuses
-3. Limit of one referrer relationship
-4. Limit of five referee relationships
+1. You must refer to another miner
+2. You may only refer to a miner that has registered a counter
+3. You may not switch referrers
 
 As an example, Alice refers Bob and Carol. Alice submits 20 transactions. Bob submits 10. Carol submits 30 transactions.
 
 Alice would receive a total of 26 = 20 from transactions + 2 from Bob (20% of 10 - limited by Bob's total transactions) + 4 from Carol (20% of 20 - limited by Alice's total transaction)
-Bob would receive a total of 12 = 10 from transactions + 2 from Alice (20% of 10 - limited by Bob's total transactions)
-Carol would receive a total of 34 = 30 from transactions + 4 from Alice (20% of 20 - limited by Alice's total transactions)
+Bob would receive a total of 10 from transactions
+Carol would receive a total of 30 from transactions
 
-The bonus is given when the referree registers their counter. If Carol forgot to register her counter of 30 on the following epoch, Carol would not receive credit for her 30 transactions, nor would Alice receive the bonus of 4.
-
-Circular referrals are allowed. Carol may refer Alice. In that case Carol would receive an addition of 4 to her score (20% of 20 - limited by Alice's total transactions)
+By creating a rigid referral mechanism, onboarding someone is truly rewarding as that person is stuck to you unless they create another account. They would most likely not want to create another account as they would lose all of their referrals in the process. Thereby giving mining accounts a social value from their accumulated referrals.
 
 ## Tokenomics
 
