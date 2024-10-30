@@ -9,7 +9,7 @@ Introducing $FLUD. A PoW/Social Coin Hybrid
 
 ## ELI5
 
-Building on the SPAM project, this project incentivizes miners to send transactions in exchange for $FLUD.
+This project incentivizes miners to send transactions in exchange for $FLUD.
 
 Proof of Spam distributes $FLUD to miners every epoch proportionally to transaction count
 
@@ -37,11 +37,7 @@ Users send txs to increase their tx counters during epoch `N`, register their tx
 
 ## Unique social rules
 
-If miners wish to participate. They can be either:
-A referrer: Someone who onboards a new user, and benefits from the new user's transactions.
-A referree: Someone who is onboarded, and benefits from being referred.
-
-Claim up to 20% boost for each referral or referree.
+Claim up to 20% boost for each referral.
 
 Social Rules:
 
@@ -56,6 +52,8 @@ Bob would receive a total of 10 from transactions
 Carol would receive a total of 30 from transactions
 
 By creating a rigid referral mechanism, onboarding someone is truly rewarding as that person is stuck to you unless they create another account. They would most likely not want to create another account as they would lose all of their referrals in the process. Thereby giving mining accounts a social value from their accumulated referrals.
+
+This is NOT a ponzi mechanism as social rewards are only given to the direct referral. They do not cascade up the tree. Therefore someone who joins much later, but onboards more users will see larger social rewards than someone who was simply early.
 
 In the first Epoch, all users will need to refer to the program account. As there will not be any valid miners until the second epoch. This program account will only be a valid referrer address in the first epoch.
 
