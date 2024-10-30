@@ -4,8 +4,8 @@ Introducing $FLUD. A PoW/Social Coin Hybrid
 
 ## Mission
 
-1. Dramatically increase usage of Sui by incentivizing new users to create transactions
-2. Create the most fairly distributed currency on Sui
+1. Dramatically increase usage of crypto by incentivizing new users to create transactions
+2. Create the most fairly distributed crypto currency possible
 
 ## ELI5
 
@@ -54,7 +54,7 @@ Carol would receive a total of 30 from transactions
 By creating a rigid referral mechanism, onboarding someone is truly rewarding as that person is stuck to you unless they create another account. They would most likely not want to create another account as they would lose all of their referrals in the process. Thereby giving mining accounts a social value from their accumulated referrals.
 
 This is NOT a ponzi mechanism as social rewards are only given to the direct referral. They do not cascade up the tree. Therefore someone who joins much later, but onboards more users will see larger social rewards than someone who was simply early.
-
+gi
 In the first Epoch, all users will need to refer to the program account. As there will not be any valid miners until the second epoch. This program account will only be a valid referrer address in the first epoch.
 
 ## Tokenomics
