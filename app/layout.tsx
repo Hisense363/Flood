@@ -1,5 +1,7 @@
 import "./globals.css";
+import { Afacad } from "next/font/google";
 
+const afacad = Afacad({ subsets: ["latin"] });
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -8,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`font-afacad antialiased bg-hero-pattern bg-cover bg-center bg-fixed min-h-screen`}
+        className={`${afacad.className} font-afacad antialiased bg-hero-pattern bg-cover bg-center bg-fixed min-h-screen`}
       >
         {children}
       </body>

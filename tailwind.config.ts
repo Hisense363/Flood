@@ -13,13 +13,18 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       screens: {
+        custom1: "300px",
+        custom2: "500px",
+        custom3: "700px",
+        custom4: "900px",
+        smallPhone: "400px",
         xs: "480px",
       },
       backgroundImage: {
         "hero-pattern": "url('/images/pexels-shotbyrain-3989914.jpg')",
       },
       fontFamily: {
-        afacad: ["Afacad", "sans-serif"],
+        sans: ["var(--font-afacad)"],
       },
     },
   },

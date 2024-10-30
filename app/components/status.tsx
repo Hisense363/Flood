@@ -5,10 +5,14 @@ const StatusBar: React.FC = () => {
     <div className="fixed bottom-0 left-0 right-0 bg-white bg-opacity-50 text-black p-2 text-lg">
       <div className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <span>
-            Total Transactions: 100 | Total Sui Fees 10 | Total Circulating
-            $FLUD: 10 | Total Market Cap: $100
+          <span className="hidden custom1:inline">
+            Total Transactions: 100 |
           </span>
+          <span className="hidden custom2:inline"> Total Sui Fees 10 |</span>
+          <span className="hidden custom3:inline">
+            Total Circulating $FLUD: 10 |
+          </span>
+          <span className="hidden custom4:inline">Total Market Cap: $100</span>
         </div>
 
         {/* Social Icons */}

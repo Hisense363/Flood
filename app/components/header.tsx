@@ -27,17 +27,17 @@ const Header = () => {
           <Link href="app.floodsui.com" className="hover:text-black-300">
             APP
           </Link>
-          <Link href="/birdeye.so" className="hover:text-black-300">
+          <Link href="#about" className="hover:text-black-300">
             ABOUT
           </Link>
-          <Link href="/discord.com" className="hover:text-black-300">
+          <Link href="#spam" className="hover:text-black-300">
             SPAM
           </Link>
-          <Link href="/discord.com" className="hover:text-black-300">
+          <Link href="#social" className="hover:text-black-300">
             SOCIAL
           </Link>
-          <Link href="/discord.com" className="hover:text-black-300">
-            TOKENOMICS
+          <Link href="#supply" className="hover:text-black-300">
+            SUPPLY
           </Link>
         </nav>
 
