@@ -53,15 +53,15 @@ const SnapScrollPage: React.FC = () => {
         </div>
         <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8">
-          <h3 className="lg:text-6xl md:text-5xl smallPhone:text-4xl text-3xl font-bold">
+          <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl font-bold">
             To overwhelm with an abundance of something.
           </h3>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Flood ($FLUD) is a new mineable currency on Sui Network. It upholds
             the core ethos of cryptocurrencies such as Bitcoin. No insiders, no
             pre-mine, fair distribution.
           </p>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             The mission is simple: onboard more users, send more transactions.
           </p>
           <Link
@@ -86,14 +86,14 @@ const SnapScrollPage: React.FC = () => {
         </div>
         <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 transition-colors text-white selection:bg-white selection:text-black">
-          <h3 className="lg:text-6xl md:text-5xl smallPhone:text-4xl text-3xl font-bold">
+          <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl font-bold">
             Send Transactions. Earn Rewards.
           </h3>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Instead of hardware, and electricity seen in traditional Proof of
             Work mining. Proof of Spam requires time, and transaction fees.
           </p>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             In this system, access to cheaper energy, or more powerful mining
             rigs provides no benefit. Instead, this can be viewed as an
             extremely long auction priced in Sui.
@@ -116,14 +116,14 @@ const SnapScrollPage: React.FC = () => {
         </div>
         <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 transition-colors text-white selection:bg-white selection:text-black">
-          <h3 className="lg:text-6xl md:text-5xl smallPhone:text-4xl text-3xl font-bold">
+          <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl font-bold">
             Incentives to grow the network are built in.
           </h3>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Receive a 20% matching bonus based on each of your referrals
             transaction activity, capped at your personal transaction volume.
           </p>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Be rewarded for working with your friends to mine together, onboard
             more people, and grow the community!
           </p>
@@ -145,17 +145,17 @@ const SnapScrollPage: React.FC = () => {
         </div>
         <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 transition-colors text-white selection:bg-white selection:text-black">
-          <h3 className="lg:text-6xl md:text-5xl smallPhone:text-4xl text-3xl font-bold">
+          <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl font-bold">
             Smooth rewards distribution
           </h3>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Total Supply = 100,000,076 $FLUD
           </p>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Rewards Decay according the the fibonacci sequence. At every epoch
             in the sequence, rewards are reduced by 3/4ths.
           </p>
-          <p className="text-xl custom1:text-2xl smallPhone:text-3xl md:text-3xl lg:text-4xl leading-relaxed max-w-[48rem] font-medium font-hero">
+          <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Starting at 1,302,720 rewards in the first epoch (1.3% of total
             supply).
           </p>
