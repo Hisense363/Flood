@@ -149,23 +149,16 @@ const SnapScrollPage: React.FC = () => {
             Smooth rewards distribution
           </h3>
           <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
-            Total Supply = 100,000,076 $FLUD
+            Total Supply = 100,000,000 $FLUD
           </p>
           <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Rewards Decay according the the fibonacci sequence. At every epoch
-            in the sequence, rewards are reduced by 3/4ths.
+            in the sequence, rewards are reduced to 69% of the prior epoch.
           </p>
           <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
-            Starting at 1,302,720 rewards in the first epoch (1.3% of total
+            Starting at 2,364,260 rewards in the first epoch (2.4% of total
             supply).
           </p>
-          <Image
-            src="/images/rewardsChart.png" // Update this path
-            alt="Chart"
-            width={500} // Adjust as needed
-            height={200} // Adjust as needed
-            className="rounded-3xl" // Add margin if needed
-          />
         </div>
       </Section>
     </div>
