@@ -10,7 +10,7 @@ interface SectionProps {
 
 const Section: React.FC<SectionProps> = ({ children }) => (
   <div
-    className={`snap-start h-screen container flex min-h-dvh w-full py-8 md:py-16 px-3 sm:px-8`}
+    className={`snap-start h-screen flex min-h-dvh w-full py-8 md:py-16 px-3 sm:px-8 flex-col md:flex-row`}
   >
     {children}
   </div>
@@ -45,15 +45,16 @@ const SnapScrollPage: React.FC = () => {
       <Section>
         <div
           id="about"
-          className="flex flex-col gap-4 sm:gap-6 md:gap-8 w-[80%]"
+          className="w-full md:w-1/3 flex flex-col gap-4 sm:gap-6 md:gap-8"
         >
-          <h1 className="text-6xl md:text-9xl font-bold pt-10">
+          <h1 className="text-5xl md:text-9xl font-bold pt-10">
             Flood [fluhd]:
           </h1>
         </div>
+        <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 transition-colors text-white selection:bg-white selection:text-black">
           <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl  font-bold">
-            to overwhelm with an abundance of something.
+            To overwhelm with an abundance of something.
           </h3>
           <p className="text-md smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Flood ($FLUD) is a new mineable currency on Sui Network. It upholds
@@ -73,18 +74,20 @@ const SnapScrollPage: React.FC = () => {
           </Link>
         </div>
       </Section>
+
       <Section>
         <div
           id="spam"
-          className="flex flex-col gap-4 sm:gap-6 md:gap-8 w-[80%]"
+          className="w-full md:w-1/3 flex flex-col gap-4 sm:gap-6 md:gap-8"
         >
-          <h1 className="text-6xl md:text-9xl font-bold pt-10">
+          <h1 className="text-5xl md:text-9xl font-bold pt-10">
             Proof of Spam:
           </h1>
         </div>
+        <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 transition-colors text-white selection:bg-white selection:text-black">
           <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl  font-bold">
-            Rewarding users for their share of transactions.
+            Send Transactions. Earn Rewards.
           </h3>
           <p className="text-md smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Instead of hardware, and electricity seen in traditional Proof of
@@ -95,17 +98,23 @@ const SnapScrollPage: React.FC = () => {
             rigs provides no benefit. Instead, this can be viewed as an
             extremely long auction priced in Sui.
           </p>
+          <Link href="hop.fun" className="hover:text-gray-300">
+            <button className="bg-black hover:bg-white hover:text-black text-white font-bold py-4 px-8 rounded-full text-xl">
+              Buy it
+            </button>
+          </Link>
         </div>
       </Section>
       <Section>
         <div
           id="social"
-          className="flex flex-col gap-4 sm:gap-6 md:gap-8 w-[80%]"
+          className="w-full md:w-1/3 flex flex-col gap-4 sm:gap-6 md:gap-8"
         >
-          <h1 className="text-6xl md:text-9xl font-bold pt-10">
+          <h1 className="text-5xl md:text-9xl font-bold pt-10">
             Proof of Social:
           </h1>
         </div>
+        <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 transition-colors text-white selection:bg-white selection:text-black">
           <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl  font-bold">
             Incentives to grow the network are built in.
@@ -118,18 +127,24 @@ const SnapScrollPage: React.FC = () => {
             Be rewarded for working with your friends to mine together, onboard
             more people, and grow the community!
           </p>
+          <Link href="https://x.com" className="hover:text-gray-300">
+            <button className="bg-black hover:bg-white hover:text-black text-white font-bold py-4 px-8 rounded-full text-xl">
+              Connect
+            </button>
+          </Link>
         </div>
       </Section>
       <Section>
         <div
           id="supply"
-          className="flex flex-col gap-4 sm:gap-6 md:gap-8 w-[80%]"
+          className="w-full md:w-1/3 flex flex-col gap-4 sm:gap-6 md:gap-8"
         >
-          <h1 className="text-6xl md:text-9xl font-bold pt-10">Supply:</h1>
+          <h1 className="text-5xl md:text-9xl font-bold pt-10">Supply:</h1>
         </div>
+        <br />
         <div className="flex flex-col gap-4 sm:gap-6 md:gap-8 transition-colors text-white selection:bg-white selection:text-black">
           <h3 className="lg:text-5xl md:text-4xl smallPhone:text-3xl text-2xl  font-bold">
-            Balancing rewards incentives at every Epoch.
+            Smooth rewards distribution
           </h3>
           <p className="text-md smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
             Total Supply = 100,000,076 $FLUD
