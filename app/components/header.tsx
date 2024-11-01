@@ -17,7 +17,7 @@ const Header = () => {
               alt="Your Company Logo"
               width={200} // Adjust as needed
               height={80} // Adjust as needed
-              className="mr-24" // Add margin if needed
+              className="mr-24 md:ml-[-10]" // Add margin if needed
             />
           </Link>
         </div>

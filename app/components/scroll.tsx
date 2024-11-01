@@ -18,7 +18,7 @@ const Section: React.FC<SectionProps> = ({ children }) => (
 const SnapScrollPage: React.FC = () => {
   return (
     <div className="snap-y snap-mandatory overflow-y-scroll overflow-x-hidden h-screen w-screen text-white">
-      <div className="snap-start container sm:mx-auto relative w-full h-full flex flex-col">
+      <div className="snap-start container mx-auto relative w-full h-full flex flex-col">
         <Header />
         <div className="flex items-center justify-center h-full">
           <div className="text-center">
