@@ -61,47 +61,34 @@ Social rewards are only given to the direct referral. They do not cascade up the
 $FLUD is a finite resource.
 
 Total Supply = 100,000,000 $FLUD
-Mineable for 2582 epochs/days or approximately 7 years
+Mineable for 1597 epochs/days or approximately 4.4 years
 
-Emission for the first epoch will start at 2,364,260.
+Emission for the first epoch will start at 2,225,742.
 
 The emissions rate will be reduced on every epoch according to the fibonnaci sequence.
 
-The rate of reduction will be (Current Daily Emissions \* 69%) = New Daily Emissions
+The rate of reduction will be (Current Daily Emissions \* 3/4) = New Daily Emissions
 
 Following this logic we can expect the following emissions schedule:
 
-Epoch Range | Daily Emissions
+Epoch | Daily Emissions
 
-0 | 2364260
-
-1-2 | 1631339
-
-3-5 | 1125624
-
-6-10 | 776681
-
-11-18 | 535910
-
-19-31 | 369778
-
-32-52 | 255147
-
-53-86 | 176051
-
-87-141 | 121475
-
-142-230 | 83818
-
-231-374 | 57834
-
-375-607 | 39905
-
-608-984 | 27534
-
-985-1594 | 18998
-
-1595-2582 | 13109
+0-1 | 2225742
+1-2 | 1669307
+2-3 | 1251980
+3-5 | 938985
+5-8 | 704239
+9-13 | 528179
+14-21 | 396134
+22-34 | 297101
+35-55 | 222826
+56-89 | 167120
+90-144 | 125340
+145-233 | 94005
+234-377 | 70504
+378-610 | 52878
+611-987 | 39659
+988-1597 | 29744
 
 ## Sui implementation
 

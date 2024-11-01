@@ -19,7 +19,7 @@ const Section: React.FC<SectionProps> = ({ children }) => (
 const SnapScrollPage: React.FC = () => {
   return (
     <div className="snap-y snap-mandatory overflow-y-scroll overflow-x-hidden h-screen w-screen text-white">
-      <div className="snap-start container mx-auto relative w-full h-full flex flex-col">
+      <div className="snap-start container sm:mx-auto relative w-full h-full flex flex-col">
         <Header />
         <div className="flex items-center justify-center h-full">
           <div className="text-center">
@@ -152,12 +152,14 @@ const SnapScrollPage: React.FC = () => {
             Total Supply = 100,000,000 $FLUD
           </p>
           <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
-            Rewards Decay according the the fibonacci sequence. At every epoch
-            in the sequence, rewards are reduced to 69% of the prior epoch.
+            Rewards Decay according the the fibonacci sequence. At each day in
+            the sequence (e.g. 1, 2, 3, 5..), daily rewards are reduced by 25%.
+            Starting at 2,225,742.
           </p>
           <p className="text-lg custom1:text-xl smallPhone:text-2xl md:text-2xl lg:text-3xl leading-relaxed max-w-[48rem] font-medium font-hero">
-            Starting at 2,364,260 rewards in the first epoch (2.4% of total
-            supply).
+            Larger rewards are needed at the beginning to provide token
+            liquidity, while larger rewards are needed later on to incentivize
+            mining.
           </p>
         </div>
       </Section>
